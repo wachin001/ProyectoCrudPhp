@@ -1,0 +1,48 @@
+.articles{
+    margin: 16px 0;
+    padding: 16px;
+    width: 70%;
+    border-right: 6px solid #33BBFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.articles__about-me{
+  display: flex;
+  height: 50%;
+  padding: 0 16px;
+}
+
+.articles__image{
+    width: 250px;
+    height: 250px;
+    border:2px solid rgb(243, 237, 237);
+    object-fit: cover;
+}
+
+.about-me--logo{
+    width: 150px;
+    height: 150px;
+    border:2px solid rgb(243, 237, 237);
+    align-self: center;
+}
+
+.about-me__content{
+    padding: 16px;
+
+}
+
+.content--title{
+    color: #646464;
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+}
+
+.content--paragraph{
+    line-height: 1.8;
+    font-size: 16px;
+}
+
